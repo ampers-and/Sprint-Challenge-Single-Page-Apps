@@ -82,7 +82,7 @@ export default function TabNav() {
         Item One
       </TabPanel>
       <TabPanel value={value} index={1}>
-        {/* <CharacterList/> */}
+        <CharacterList/>
       </TabPanel>
       <TabPanel value={value} index={2}>
         <LocationsList/>

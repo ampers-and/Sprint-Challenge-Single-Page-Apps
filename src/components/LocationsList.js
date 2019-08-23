@@ -27,12 +27,12 @@ export default function LocationsList(props) {
     return(
         <div className='location-list'>
             {locations.map(location =>(
-                <div className='location-details' key={location.id} 
-                    name={location.name}
-                    type={location.type}
-                    dimensions={location.dimensions}
-                    residents={location.residents}>
-                    <LocationCard/>
+                <div className='location-details' key={location.id}>
+                    <LocationCard
+                        name={location.name}
+                        type={location.type}
+                        dimensions={location.dimensions}
+                        residents={location.residents}/>
                 </div>
             ))}
         </div>
