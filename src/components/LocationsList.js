@@ -31,7 +31,7 @@ export default function LocationsList(props) {
                     <LocationCard
                         name={location.name}
                         type={location.type}
-                        dimensions={location.dimensions}
+                        dimension={location.dimension}
                         residents={location.residents}/>
                 </div>
             ))}
