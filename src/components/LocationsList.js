@@ -25,7 +25,7 @@ export default function LocationsList(props) {
     }, []);
 
     return(
-        <div className='location-list'>
+        <div className='location-list grid-view'>
             {locations.map(location =>(
                 <div className='location-details' key={location.id}>
                     <LocationCard

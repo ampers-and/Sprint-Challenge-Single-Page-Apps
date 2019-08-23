@@ -16,6 +16,7 @@ import { NavLink } from "react-router-dom";
 
 import CharacterList from "./CharacterList";
 import LocationsList from './LocationsList';
+import EpisodeList from './EpisodeList';
 
 
 //Material UI
@@ -88,7 +89,7 @@ export default function TabNav() {
         <LocationsList/>
       </TabPanel>
       <TabPanel value={value} index={3}>
-        Item Three
+        <EpisodeList/>
       </TabPanel>
     </div>
   );
